@@ -4,7 +4,7 @@ import About from './components/About'
 
 const App = () => ( 
     <div className="App">
-        <h1>Hello React</h1>
+        <h1>Dalia Yan's tester App</h1>
         <About></About>
     </div>
 

@@ -24,8 +24,8 @@ class PlusMinus extends Component {
         return (
             <div>
                 <h2>Count: {this.state.counter}</h2>
-                <button onClick={this.addingFunct}>+</button>
-                <button onClick={this.subtractingFunct}>-</button>
+                <button className="button" onClick={this.addingFunct}>+</button>
+                <button className="button" onClick={this.subtractingFunct}>-</button>
             </div>
         )
     }
