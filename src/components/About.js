@@ -2,6 +2,7 @@ import React from 'react';
 import AdderButton from './AddOn /AdderButton';
 import Counter from './AddOn /Counter';
 import PlusMinus from './AddOn /PlusMinus';
+import AddToString from './AddOn /AddToString';
 
 const About = () => {
   return (
@@ -17,6 +18,11 @@ const About = () => {
           --------
       </div>
         <PlusMinus></PlusMinus>
+        <div>
+          ---
+        </div>
+      <AddToString header="Hello World"/>
+
     </header>
   );
 }
