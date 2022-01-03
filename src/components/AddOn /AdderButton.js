@@ -19,10 +19,10 @@ class AdderButton extends Component {
     render(){
         return <div className="liker-funct">
             <input type="text" value={this.state.num1} onChange={(event) => {this.setState({num1: event.target.value})}} placeholder="Enter a Number Here"/>
-            <h3>+</h3>
+            <p>+</p>
             <input type="text" value={this.state.num2} onChange={(event) => {this.setState({num2: event.target.value})}} placeholder="Enter a Number Here"/>
             <h1>{this.state.total}</h1>
-            <button onClick={() => this.likerIncreasing()}>Click To Add</button>
+            <button className='Adding-Button' onClick={() => this.likerIncreasing()}>Click To Add</button>
             {/* <input type="text" value={this.state.total}/> */}
         </div>
     }

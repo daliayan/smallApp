@@ -15,7 +15,7 @@ export class AddToString extends Component {
     render() {
         return (
             <div>
-                <h1 onClick={this.onClick}>{this.props.header}{this.state.symbol}</h1>
+                <h2 onClick={this.onClick}>{this.props.header}{this.state.symbol}</h2>
             </div>
         )
     }

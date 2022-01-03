@@ -11,20 +11,20 @@ const About = () => {
       INSERT NUMBERS TO ADD THEM TOGETHER
       <AdderButton></AdderButton>
       <div>
-          --------
+          --------------------------------
       </div>
       THE BOX BELOW WILL ADD THE SUM OF THE TEXT CHARACTERS 
       <Counter></Counter>
       <div>
-          --------
+          --------------------------------
       </div>
         <PlusMinus></PlusMinus>
         <div>
-          ---
+          -----------------------------------
         </div>
-      <AddToString header="Hello World"/>
+      <AddToString header="CLICK ON ME TO SEE WHAT HAPPENS"/>
       <div>
-        ------</div>   
+        --------------------------------------</div>   
       <BoldenMe />
 
     </header>
