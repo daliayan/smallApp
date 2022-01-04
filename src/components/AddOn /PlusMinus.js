@@ -23,7 +23,8 @@ class PlusMinus extends Component {
     render(){
         return (
             <div>
-                <h2>Count: {this.state.counter}</h2>
+                <h2>Click + or - to see me change</h2>
+                <p>{this.state.counter}</p>
                 <button className="button" onClick={this.addingFunct}>+</button>
                 <button className="button" onClick={this.subtractingFunct}>-</button>
             </div>
